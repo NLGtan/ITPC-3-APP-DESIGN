@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Italianno', cursive;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.897);
+}
+.Box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 414px;
+    height: 736px; 
+    border-radius: 30px;
+    background: white;
+}
+.header{
+    position: fixed;
+    width: 414px;
+    height: 66px;
+    background-color: #DDB892;
+    border-radius: 30px 30px 0 0;
+}
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    width: 50px;
+    height: 49px;
+}
+.title {
+    position: absolute;
+    top: -13px;
+    left: 120px;
+    font-family: 'Italianno', cursive;
+    font-size: 32px;
+    font-weight: 400;
+}
+.searchbar input{
+    position: absolute;
+    top: 85px;
+    left: 9px;
+    outline: none;
+    border: 1px solid #DDB892;
+    width: 271px;
+    height: 25px;
+    border-radius: 15px;
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.searchbar img{
+    display: flex;
+    position: absolute;
+    top: 89px;
+    left: 258px;
+    width: 17px;
+    height:17px;
+}
+.line {
+    position: absolute;
+    left: 321px;
+    top: 70px;
+
+}
+.login a{
+    color: #000;
+    position: absolute;
+    top: 91px;
+    left: 293px;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.signup a{
+    color: #000;
+    position: absolute;
+    top: 91px;
+    left: 327px;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.cart img{
+    position: absolute;
+    top: 85px;
+    left: 369px;
+    width: 25px;
+    height: 25px;
+}
+.linebox{
+    position: absolute;
+    top: 123px;
+    border: none;
+    border-bottom: 2px solid #DDB892;
+    width: 100%;
+}
+
+.products{
+    position: absolute;
+    top: 125px;
+    width: 415px;
+    height: 555px;
+    overflow-y: scroll;
+}
+.products::-webkit-scrollbar{
+    display: none;
+}
+.product1{
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    width: 182px;
+    height: 234px;
+}
+.product1 img{
+    border: 1px solid  rgba(0, 0, 0, 0.5);
+    width: 180px;
+    height: 174px;
+}
+.product1 .textbox{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    top: 174px;
+    background-color: #FFF1DB;
+    width: 180px;
+    height: 58px;
+}
+.product1 .textbox h1{
+    color: black;
+    padding-top: 1px;
+    padding-left: 7px;
+    font-size: 8px;
+    font-weight: 500;
+}
+.product1 .price img{
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 13px;
+    height: 13px;
+    border: none;
+}
+.product1 .price{
+    position: absolute;
+    top: 32px;
+    left: 115px;
+    background-color: #FFCC80;
+    border-radius: 30px;
+    width: 58px;
+    height: 17px;
+}
+.product1 .price p{
+    position: absolute;
+    top: -5.5px;
+    left: 26px;
+    font-size: 8px;
+    font-weight: 600;
+    color: black;
+}
+
+.product2{
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    width: 182px;
+    height: 234px;
+}
+.product2 img{
+    border: 1px solid  rgba(0, 0, 0, 0.5);
+    width: 180px;
+    height: 174px;
+}
+.product2 .textbox{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    top: 174px;
+    background-color: #FFF1DB;
+    width: 180px;
+    height: 58px;
+}
+.product2 .textbox h1{
+    color: black;
+    padding-top: 1px;
+    padding-left: 7px;
+    font-size: 8px;
+    font-weight: 500;
+}
+.product2 .price img{
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 13px;
+    height: 13px;
+    border: none;
+}
+.product2 .price{
+    position: absolute;
+    top: 32px;
+    left: 115px;
+    background-color: #FFCC80;
+    border-radius: 30px;
+    width: 58px;
+    height: 17px;
+}
+.product2 .price p{
+    position: absolute;
+    top: -5.5px;
+    left: 26px;
+    font-size: 8px;
+    font-weight: 600;
+    color: black;
+}
+
+.product3{
+    position: absolute;
+    top: 260px;
+    left: 14px;
+    width: 182px;
+    height: 234px;
+}
+.product3 img{
+    border: 1px solid  rgba(0, 0, 0, 0.5);
+    width: 180px;
+    height: 174px;
+}
+.product3 .textbox{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    top: 174px;
+    background-color: #FFF1DB;
+    width: 180px;
+    height: 58px;
+}
+.product3 .textbox h1{
+    color: black;
+    padding-top: 1px;
+    padding-left: 7px;
+    font-size: 8px;
+    font-weight: 500;
+}
+.product3 .price img{
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 13px;
+    height: 13px;
+    border: none;
+}
+.product3 .price{
+    position: absolute;
+    top: 32px;
+    left: 115px;
+    background-color: #FFCC80;
+    border-radius: 30px;
+    width: 58px;
+    height: 17px;
+}
+.product3 .price p{
+    position: absolute;
+    top: -5.5px;
+    left: 26px;
+    font-size: 8px;
+    font-weight: 600;
+    color: black;
+}
+
+.product4{
+    position: absolute;
+    top: 260px;
+    left: 220px;
+    width: 182px;
+    height: 234px;
+}
+.product4 img{
+    border: 1px solid  rgba(0, 0, 0, 0.5);
+    width: 180px;
+    height: 174px;
+}
+.product4 .textbox{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    top: 174px;
+    background-color: #FFF1DB;
+    width: 180px;
+    height: 58px;
+}
+.product4 .textbox h1{
+    color: black;
+    padding-top: 1px;
+    padding-left: 7px;
+    font-size: 8px;
+    font-weight: 500;
+}
+.product4 .price img{
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 13px;
+    height: 13px;
+    border: none;
+}
+.product4 .price{
+    position: absolute;
+    top: 32px;
+    left: 115px;
+    background-color: #FFCC80;
+    border-radius: 30px;
+    width: 58px;
+    height: 17px;
+}
+.product4 .price p{
+    position: absolute;
+    top: -5.5px;
+    left: 26px;
+    font-size: 8px;
+    font-weight: 600;
+    color: black;
+}
+
+.product5{
+    position: absolute;
+    top: 510px;
+    left: 14px;
+    width: 182px;
+    height: 234px;
+}
+.product5 img{
+    border: 1px solid  rgba(0, 0, 0, 0.5);
+    width: 180px;
+    height: 174px;
+}
+.product5 .textbox{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    top: 174px;
+    background-color: #FFF1DB;
+    width: 180px;
+    height: 58px;
+}
+.product5 .textbox h1{
+    color: black;
+    padding-top: 1px;
+    padding-left: 7px;
+    font-size: 8px;
+    font-weight: 500;
+}
+.product5 .price img{
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 13px;
+    height: 13px;
+    border: none;
+}
+.product5 .price{
+    position: absolute;
+    top: 32px;
+    left: 115px;
+    background-color: #FFCC80;
+    border-radius: 30px;
+    width: 58px;
+    height: 17px;
+}
+.product5 .price p{
+    position: absolute;
+    top: -5.5px;
+    left: 26px;
+    font-size: 8px;
+    font-weight: 600;
+    color: black;
+}
+
+.product6{
+    position: absolute;
+    top: 510px;
+    left: 220px;
+    width: 182px;
+    height: 234px;
+}
+.product6 img{
+    border: 1px solid  rgba(0, 0, 0, 0.5);
+    width: 180px;
+    height: 174px;
+}
+.product6 .textbox{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    top: 174px;
+    background-color: #FFF1DB;
+    width: 180px;
+    height: 58px;
+}
+.product6 .textbox h1{
+    color: black;
+    padding-top: 1px;
+    padding-left: 7px;
+    font-size: 8px;
+    font-weight: 500;
+}
+.product6 .price img{
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 13px;
+    height: 13px;
+    border: none;
+}
+.product6 .price{
+    position: absolute;
+    top: 32px;
+    left: 115px;
+    background-color: #FFCC80;
+    border-radius: 30px;
+    width: 58px;
+    height: 17px;
+}
+.product6 .price p{
+    position: absolute;
+    top: -5.5px;
+    left: 26px;
+    font-size: 8px;
+    font-weight: 600;
+    color: black;
+}
+
+footer .linebox2{
+    position: absolute;
+    top: 680px;
+    border: none;
+    border-bottom: 2px solid #DDB892;
+    width: 100%;
+}
+footer .link img{
+    width: 30px;
+    height: 30px;
+}
+footer .link{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 693px;
+}
