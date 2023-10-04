@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Italianno', cursive;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.897);
+}
+.title {
+    position: absolute;
+    color: wheat;
+    width: 100%;
+    text-align: center;
+    top: 60px;
+    font-family: 'Italianno';
+    font-size: 40px;
+    font-weight: 400px;
+}
+.Box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 414px;
+    height: 736px; 
+    border-radius: 30px;
+    background: #DDB892;
+}
+.background img{
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: 246px;
+    flex-shrink: 0;
+}
+.logo{
+    position: absolute;
+    top: 150px;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo {
+    width: 118px;
+    height: 119px;
+    flex-shrink: 0;   
+}
+.fblogo{
+    position: absolute;
+    top: 240px;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+    width: 35px;
+    height: 35px;
+}
+.Box .row{
+    position: absolute;
+    padding-top: 620px;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+}
+.Box .row input{
+    outline: none;
+    color: black;
+    width: 302px;
+    height: 38px;
+    margin-top: 20px;
+    font-size: 12px;
+    border-radius: 30px;
+    padding: 20px;
+    padding-left: 40px;
+    border: 1px solid;
+}
+.row .icon1{
+    position: absolute;
+    left: 13px;
+    bottom: 73px;
+    width: 21px;
+    height: 20px;
+}
+.row .icon2{
+    position: absolute;
+    left: 13px;
+    bottom: 12px;
+    width: 22px;
+    height: 21px;
+}
+.Box a{
+    position: absolute;
+    width: 100%;
+    left: 137px;
+    top: 170px;
+    color: black;
+    padding-top: 10px;
+    font-size: 7px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.confirm img{
+    display: flex;
+    position: absolute;
+    top: 3.5px;
+    left: 6px;
+    width: 13px;
+    height: 13px;
+}
+.confirm a{
+    position: absolute;
+    border-radius: 30px;
+    left: 80px;
+    top: 480px;
+    width: 75px;
+    height: 20px;
+    padding: 3px;
+    background-color: #FFCC80;
+    font-size: 9px;
+    font-weight: 600;
+    box-shadow: 0px 2px 3px 0px ;
+}
+
+.sign-up img{
+    display: flex;
+    position: absolute;
+    top: 3.5px;
+    left: 6px;
+    width: 12px;
+    height: 12px;
+}
+.sign-up a{
+    position: absolute;
+    border-radius: 30px;
+    left: 80px;
+    top: 510px;
+    width: 75px;
+    height: 20px;
+    padding: 3px;
+    background-color: #FFCC80;
+    font-size: 9px;
+    font-weight: 600;
+    box-shadow: 0px 2px 3px 0px ;
+}
+.login img{
+    display: flex;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 13px;
+    height: 12px;
+}
+.login a{
+    position: absolute;
+    border-radius: 30px;
+    left: 80px;
+    top: 540px;
+    width: 75px;
+    height: 20px;
+    padding: 3px;
+    background-color: #FFCC80;
+    font-size: 9px;
+    font-weight: 600;
+    box-shadow: 0px 2px 3px 0px ;
+}
+.skip img{
+    display: flex;
+    position: absolute;
+    top: 2.5px;
+    left: 40px;
+    width: 14px;
+    height: 14px;
+}
+.skip a{
+    position: absolute;
+    border-radius: 19px;
+    left: 305px;
+    top: 665px;
+    width: 58px;
+    height: 18px;
+    padding: 1.5px;
+    background-color: #FFCC80;
+    font-size: 11px;
+    font-weight: 600;
+    box-shadow: 0px 2px 3px 0px ;
+}
+.forgotpass{
+    margin-top: 200px;
+}
